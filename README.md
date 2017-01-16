@@ -12,6 +12,7 @@ Homework #1 from SEDS
 * Modify this README.md to include instructions on how to run the ``setup.sh`` and what it does, what to expect as a user.  Put this under the 'Usage and more information' section.
 * Commit the script, the notebook and your changed README.md to GitHub using the classroom link.
 
+***
 
 ### Usage and more information
 #### ``setup.sh`` function usage
@@ -29,13 +30,14 @@ bash FangqiWang_setup.sh
 * Select "Yes" by typing 1 and hit "Enter" in the prompt.
 
 ```bash
-Would you like to download Harvard Clean Energy Data?(Type 1-Yes/2-No)
+Would you like to download Harvard Clean Energy Database?(Type 1-Yes/2-No)
 1) Yes
 2) No
 #? 
 ```
 * The program should automatically download and unzip the file in the current directory.
 
+***
 
 ### Grading rubric
 _Dave will fill this section in_
