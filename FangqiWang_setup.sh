@@ -5,7 +5,7 @@ echo "Would you like to download Harvard Clean Energy Project Database?(Type 1-Y
 select option in Yes No  # Create a menu for user to select options
 do
 	case $option in
-		Yes )  # Proceed with folowing command if user would like to download the file
+		Yes )  # Proceed with following command if user would like to download the database
 			echo "Downloading file"
 			# Download the file
 			curl -O http://faculty.washington.edu/dacb/HCEPDB_moldata.zip
@@ -17,7 +17,7 @@ do
 			;;
 		No ) # Exit the program if user does not want to download the file
 			echo "Exit program"
-			exit
+			exit 
 			;;
 	esac
 done
