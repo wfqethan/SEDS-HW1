@@ -13,8 +13,28 @@ Homework #1 from SEDS
 * Commit the script, the notebook and your changed README.md to GitHub using the classroom link.
 
 
-### Usage and more informaiton
-Student will fill this in.
+### Usage and more information
+#### ``setup.sh`` function usage
+* This program will download and unzip the Harvard Clean Energy Project Database in the current directory.
+
+
+#### Instructions
+
+* Open a new terminal and type the following command.
+
+```bash
+bash FangqiWang_setup.sh
+```
+
+* Select "Yes" by typing 1 and hit "Enter" in the prompt.
+
+```bash
+Would you like to download Harvard Clean Energy Data?(Type 1-Yes/2-No)
+1) Yes
+2) No
+#? 
+```
+* The program should automatically download and unzip the file in the current directory.
 
 
 ### Grading rubric
